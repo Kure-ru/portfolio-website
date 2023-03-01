@@ -73,7 +73,15 @@ input, select, textarea {
 }
 
 /* Basic */
+.form {
+	width: 50%;
+	margin: 0 auto;
+}
 
+.form label {
+	text-align: left;
+	padding-bottom: 10px;
+}
 	@-ms-viewport {
 		width: device-width;
 	}
