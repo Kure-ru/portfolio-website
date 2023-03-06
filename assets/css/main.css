@@ -3794,3 +3794,15 @@ i {
 			}
 
 		}
+
+	.project {
+		width: 13rem;
+		height: 13rem;
+	filter: grayscale(0) blur(0);
+	transition: .3s ease-in-out;
+	}
+
+	.project:hover {
+		-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+	}
